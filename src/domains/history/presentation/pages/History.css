@@ -1,0 +1,54 @@
+/* purchase-table.css */
+.purchase-table-container {
+    overflow-x: auto;
+}
+
+.purchase-table {
+    width: 750px;
+    min-width: 100%;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-collapse: collapse;
+}
+
+.purchase-table thead tr {
+    background-color: #f3f4f6;
+}
+
+.purchase-table th {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+    font-weight: 600;
+}
+
+.purchase-table td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.purchase-table tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+.purchase-table .text-center {
+    text-align: center;
+}
+
+.purchase-table .text-right {
+    text-align: right;
+}
+
+.purchase-table .product-list {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+}
+
+.purchase-table .product-list li {
+    margin-bottom: 0.25rem;
+}
+
+.purchase-table .card-number {
+    color: #6b7280;
+    font-size: 0.875rem;
+}

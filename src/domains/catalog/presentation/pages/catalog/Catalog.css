@@ -1,0 +1,47 @@
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.products li {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.catalog-delete-btn {
+    background: brown;
+}
+
+.catalog-add-btn {
+    background: forestgreen;
+}
+
+.catalog-select-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    input {
+        width: 50%;
+        background: white;
+        color: black;
+    }
+
+    button {
+        padding: 0;
+        background: none;
+    }
+}

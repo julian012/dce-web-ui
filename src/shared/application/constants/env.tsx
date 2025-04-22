@@ -1,0 +1,1 @@
+export const URL_PROD = 'http://localhost:8000';
